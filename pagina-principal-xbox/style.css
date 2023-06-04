@@ -1,0 +1,404 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(130deg, black, rgb(0, 190, 79));
+
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-header {
+    width: 100px;
+    left: 50px;
+}
+
+.logo-header:hover {
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+header nav a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    color: #BEF8FF;
+}
+
+.input-header {
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.seila {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(130deg, black, rgb(0, 190, 79));
+    border-top: solid 0.5px white;
+}
+
+.botoes {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes:hover {
+    color: #BEF8FF;
+}
+
+.navegacao-plataforma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    background-color: grey;
+    width: 40%;
+    height: 90px;
+    left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(130deg, black, rgb(0, 124, 52));
+    border-top: solid 0.5px white;
+}
+
+.plataforma1 {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-image: url(assets/Windows.png);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.plataforma1:hover {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.plataforma2 {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-image: url(assets/PS.png);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.plataforma2:hover {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.plataforma3 {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-image: url(assets/Xbox.png);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.plataforma3:hover {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.plataforma4 {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-image: url(assets/nintendo.png);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.plataforma4:hover {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.div-jogos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25px;
+    height: 450px;
+    width: 100%;
+}
+
+.imagens-jogos {
+    width: 225px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.informacoes-jogos {
+    width: 225px;
+    height: 375px;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(130deg, black, rgb(0, 190, 79));
+    color: white;
+}
+
+.informacoes-jogos h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.informadoes-comprar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informadoes-comprar p {
+    margin-left: 35px;
+    font-weight:normal;
+}
+
+.comprar {
+    width: 100px;
+    height: 35px;
+    background-color: #FFBA00;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+.comprar:hover {
+    background-color: #FFDB01;
+    cursor: pointer;
+}
+
+.div-jogos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25px;
+    height: 450px;
+    width: 100%;
+}
+
+.catalogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.informacoes-catalogo {
+    height: 70px;
+    /* background-color: grey; */
+}
+
+.catalogo-bem-avaliado {
+    background: linear-gradient(130deg, black, rgb(0, 190, 79));
+    padding: 10px;
+    border-radius: 7px;
+    width: 350px;
+    height: 325px;
+}
+
+.info-catalogo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.info-catalogo-escrito h2 {
+    text-align: center;
+}
+
+.info-catalogo-escrito div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.info-catalogo-escrito div p {
+    font-weight:normal;
+}
+
+.catalogo-imagem {
+    width: 350px;
+    height: 250px;
+    border-radius: 7px;
+}
+
+.titulo-catalogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 9.5%;
+}
+
+.titulo-catalogos h1 {
+    color: white;
+    font-family: arial;
+}
+
+.titulo-catalogos a {
+    color: rgb(21, 255, 0);
+    font-size: 15px;
+    width: 180px;
+}
+
+.titulo-catalogos a:hover {
+    text-decoration: underline;
+}
+
+.jogos-gratis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.catalogo-jogo-gratis {
+    width: 225px;
+    height: 390px;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(130deg, black, rgb(0, 190, 79));
+    color: white;
+}
+
+.catalogo-jogo-gratis h2 {
+    text-align: center;
+}
+
+.botao-jogar-agora {
+    width: 225px;
+    height: 50px;
+    background-color: #FFBA00;
+    border: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.botao-jogar-agora:hover {
+    background-color: #FFDB01;
+    cursor: pointer;
+}
+
+.butao-torto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mostrar-mais {
+    background-color: rgb(5, 74, 0);
+    color: white;
+    border: none;
+    width: 80%;
+    height: 55px;
+    margin-right: 9.5%;
+    margin-left: 9.5%;
+    border-radius: 7px;
+    font-size: 17px;
+    border: rgb(0, 0, 0) 0.1px solid;
+}
+
+.mostrar-mais:hover {
+    background-color: rgb(5, 95, 0);
+    cursor: pointer;
+}
+
+footer {
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px white;
+    background-color: rgb(2, 26, 0);
+    padding: 7px;
+    margin-top: 25px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+footer nav a {
+    color: white;
+}
+
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+}
